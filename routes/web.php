@@ -13,9 +13,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('newstory', function () {
+    return view('newstory');
+});
 Route::get('register', function () {
     return view('default');
+});
+
+Route::get('newstory', function () {
+    return view('defaultS');
 });
 
 Route::get('/', function () {

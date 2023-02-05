@@ -20,7 +20,7 @@
               <img
                 class="resource-img"
                 alt="bloom logo"
-                src="img/bloom-logo.png"
+                src="assets/img/bloom-logo.png"
               />
             </div>
             <div class="resource-textbox">
@@ -43,7 +43,7 @@
               <img
                 class="resource-img"
                 alt="me too logo"
-                src="img/me-too-logo.png"
+                src="assets/img/me-too-logo.png"
               />
             </div>
             <div class="resource-textbox">
@@ -68,7 +68,7 @@
               <img
                 class="resource-img"
                 alt="Guide to CSOs in Jordan logo"
-                src="img/large_civilsociety-jo.net_637541107412798358.jpg"
+                src="assets/img/large_civilsociety-jo.net_637541107412798358.jpg"
               />
             </div>
             <div class="resource-textbox">
@@ -91,7 +91,7 @@
           </div>
           <div class="resource-card">
             <div class="resource-img-box">
-              <img class="resource-img" alt="Mind Clinic" src="img/laith.PNG" />
+              <img class="resource-img" alt="Mind Clinic" src="assets/img/laith.PNG" />
             </div>
             <div class="resource-textbox">
               <h3 class="resource-name">Mind Clinic</h3>

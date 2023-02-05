@@ -682,3 +682,15 @@ blockquote {
   display: inline-block;
 } */
 /**************************/
+/**************************/
+/*Membership page*/
+/*************************/
+.membership-plan {
+    border: 1px solid #f0bb62;
+    background-color: #faf7d4;
+    color: #064635;
+    width: 25rem;
+}
+.membership-plan h3 {
+    font-size: 2rem;
+}
