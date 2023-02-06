@@ -7,28 +7,39 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/general.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link href="{{ asset('css/wizardS.css') }}" rel="stylesheet" id="bootstrap-css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light mb-4">
+  <header class="storyHeader">
+    <nav class="navbar navbar-expand-md mb-4 ">
       <div class="d-flex w-50 order-0">
-          <a class="nav-link mr-1" href="#"><ion-icon name="arrow-back-outline"></ion-icon> Stories</a>
+          <a class="nav-link mr-1" href="stories">
+             Stories</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <ion-icon name="menu-outline"></ion-icon>          </button>
       </div>
       <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
           <ul class="navbar-nav">
               <li class="nav-item active">
-                  <a class="nav-link " href="#"><ion-icon name="lock-closed-outline"class="g-icon"></ion-icon></a>
+                  <a class="nav-link lock" href="#"><ion-icon name="lock-closed"></ion-icon></a>
               </li>
           </ul>
       </div>
-      <span class=" mt-1 w-50 text-right order-1 order-md-last"><a class="nav-link" href="#">Resources</a></span>
+      <span class=" mt-1 w-50 text-right order-1 order-md-last"><a class="nav-link" href="resources">Resources</a></span>
   </nav>
   </header>
         
-        <div class=" mx-auto mb-4" style="max-width:90rem">
+        <div class="mx-auto story-form" style="max-width:80rem">
           
                 <livewire:wizard2 />
             </div>

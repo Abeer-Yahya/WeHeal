@@ -92,7 +92,50 @@
           </div>
         </div>
       </section>
-      <section class="features"></section>
+      <section class="features">
+      <div class="container">
+        <div class="row gx-5 justify-content-evenly gy-5">
+          <div class="col-md-6">
+            <img src="assets/img/screen1.PNG" alt="screenshot from the stories page"/>
+          </div>
+          <div class="col-md-6">
+            <div class="featureText">
+            <h5><ion-icon name="flash-outline"></ion-icon></h5>
+            <h5>Your stories are powerful.</h5>
+            <p>You should not have to go through this alone. Our goal is to offer a secure environment where people may engage with one another and share their experiences in order to highlight hope and start the healing process.</p>
+            <a href="what">WHAT WE DO <span><ion-icon name="arrow-forward-outline" class="fix"></ion-icon></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-5 justify-content-evenly gy-5">
+          <div class="col-md-6">
+            <div class="featureText">
+
+            <h5><ion-icon name="lock-closed-outline"></ion-icon></h5>
+            <h5>Your stories are safe.</h5>
+            <p>Anonymity and safety are our primary priorities, and each story is handled with care and transparency. Without your consent, we will never contact you or share your story.</p>
+            <a href="what">OUR PRIVACY POLICY <span><ion-icon name="arrow-forward-outline" class="fix"></ion-icon></span></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/img/screen2.PNG" alt="screenshot from the new story page"/>
+          </div>
+        </div>
+        <div class="row gx-5 justify-content-evenly gy-5">
+          <div class="col-md-6">
+            <img src="assets/img/screen3.PNG" alt="screenshot for our strong voices"/>
+          </div>
+          <div class="col-md-6">
+            <div class="featureText">
+              <h5><ion-icon name="heart-outline"></ion-icon></h5>
+              <h5>Your stories make a difference.</h5>
+              <p>We believe in the impact of words. With the help of our partners, we aim to use stories to break the stigma and shed some light on mental health issues and encourage your healing process.</p>
+              <a href="how">HOW TO HELP <span><ion-icon name="arrow-forward-outline" class="fix"></ion-icon></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
     </main>
 @include('partials.footer')
 

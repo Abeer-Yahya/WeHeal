@@ -17,6 +17,7 @@
     <link rel="manifest" href="assets/img/favicon_package_v0.16/site.webmanifest" />
 
     <!-- Styles -->
+    
     <link rel="stylesheet" href="assets/css/general.css" />
     <link rel="stylesheet" href="assets/css/animated.scss" />
     <link rel="stylesheet" href="assets/css/style.css" />

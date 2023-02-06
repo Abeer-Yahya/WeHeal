@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('stories', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->longText('story');
-            $table->binary('image')->nullable();
+            $table->longText('desc');
+            $table->string('image')->nullable();
             $table->string('category');
             $table->string('filter');
             $table->foreignId('user_id')->references('id')->on('users');

@@ -58,17 +58,57 @@
         <div class="d-grid container">
           <div class="row">
             <div class="col rounded membership-plan">
-              <h3 class="text-center mt-4 bigger">Basic Membership</h3>
+              <h3 class="text-center my-4 bigger">Basic Membership</h3>
               <ul class="ml-4">
-                <li>yy</li>
+                <li>Free, zero cost.</li>
+                <li>Reading existing Q&As.</li>
+                <li>Sharing a new story.</li>
+                <li>No Blogs.</li>
+                <li class="mb-5">No Therapy offers.</li>
               </ul>
-              <a class="button-link"  aria-current="page"
-              href="{{ asset('/register') }}">Register</a>            </div>
+              <a class="Sbtn mb-5"  aria-current="page"
+              href="{{ asset('/register') }}" style="margin-left: 20rem; matgin-top:550px">Register</a></div>
             <div class="col rounded membership-plan ml-5">
-              <h3 class="text-center mt-4">Premium Membership</h3>
+              <h3 class="text-center my-4">Premium Membership</h3>
+              <ul class="ml-4">
+                <li>7.99JD Monthly.</li>
+                <li>Reading existing Q&As and adding new questions.</li>
+                <li>Sharing a new story.</li>
+                <li>Reading blogs.</li>
+                <li class="mb-5">Special therapy sessions offers.</li>
+              </ul>
+              <a class="Sbtn mb-5"  aria-current="page"
+              href="{{ asset('/register') }}" style="margin-left: 20rem; matgin-top:550px">Register</a>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="section-main">
+        <div class="section-special">
+          <div class="d-grid container">
+            <div class="row">
+              <div class="col rounded">
+
+                <video autoplay  controls="controls" width="550rem">
+                  <source src="assets/img/membershipvideo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+                
+              <div class="col rounded videotxt my-auto">
+                <p>Life is tough, we'll be the shoulder you need to lean on.</p>
+                <p>
+                  Join us and bloom in our non-judgemental enviroment.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
       </section>
     </main>
 

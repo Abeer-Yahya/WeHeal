@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StoryController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -84,6 +85,9 @@ Route::get('membership', function () {
     return view('membership');
 });
 
-Route::get('stories', function () {
-    return view('stories');
-});
+// Route::get('stories', function () {
+//     return view('stories');
+// });
+
+Route::resource('stories', StoryController::class);
+

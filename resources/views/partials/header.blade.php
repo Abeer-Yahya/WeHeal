@@ -17,6 +17,8 @@
     <link rel="manifest" href="assets/img/favicon_package_v0.16/site.webmanifest" />
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="assets/css/general.css" />
     <link rel="stylesheet" href="assets/css/animated.scss" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -35,6 +37,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
 
     <!-- BootStrap -->
     <link

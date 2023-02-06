@@ -16,8 +16,13 @@ class Story extends Model
      * @var array
      */
     protected $fillable = [
-        'title', 'story', 'image', 'category', 'filter'
+        'title', 'desc', 'image', 'category', 'filter', 'user_id'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 
 }
 

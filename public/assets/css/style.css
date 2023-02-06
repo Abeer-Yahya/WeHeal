@@ -160,7 +160,33 @@
     }
 }
 /*FEATURES section*/
-
+.features {
+    padding: 7.2rem 15.8rem;
+}
+.featureText {
+    margin-top: 12.2rem;
+    width: 80%;
+    color: #064635;
+}
+.featureText h5 {
+    font-size: 2.2rem;
+}
+.featureText p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.featureText a {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #064635;
+    letter-spacing: 2;
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+.fix {
+    display: inline-block;
+    vertical-align: middle;
+}
 /*******************************/
 /* Login & Register Form */
 /******************************/
@@ -694,3 +720,162 @@ blockquote {
 .membership-plan h3 {
     font-size: 2rem;
 }
+.membership-plan ul {
+    list-style: none;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.videotxt p {
+    font-size: 1.8rem;
+}
+
+.Sbtn {
+    display: inline-block;
+}
+.Sbtn:hover {
+    text-decoration: none;
+    color: #064635;
+}
+
+/**************************/
+/*New story form*/
+/*************************/
+.storyHeader {
+    color: #064635;
+    margin-right: 9.6rem;
+    margin-left: 9.6rem;
+    letter-spacing: 0.75px;
+}
+
+.storyHeader a {
+    display: inline-block;
+    color: #064635;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.lock {
+    font-size: 3.6rem !important;
+}
+.story-form {
+    color: #064635;
+    text-align: center;
+}
+.story-heading {
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+.story-desc {
+    font-size: 1.8rem;
+    width: 70%;
+    line-height: 1.6;
+}
+.Sbtn {
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    background-color: #f0bb62;
+    color: #064635;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.BSbtn {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #064635;
+}
+.BSbtn:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #064635;
+}
+.Sforms {
+    width: 70%;
+}
+.Sforms .form-control {
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #064635 !important;
+    font-size: 1.2rem !important;
+    color: #064635 !important;
+}
+.Sforms .form-group input {
+    height: 4.5rem !important;
+}
+.Sforms .form-group textarea {
+    height: 12rem !important;
+}
+/********************************/
+.stcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+    background-color: #faf7d4 !important;
+    color: #064635 !important;
+    display: inline-block !important;
+    width: 100% !important;
+    max-height: 100rem !important;
+    height: max-content !important;
+    text-align: center;
+}
+.stcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.groundbtn {
+    color: #064635;
+    background-color: #f0bb62;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.6rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.stcard .modal .modal-dialog .modal-content {
+    background-color: #faf7d4;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: left;
+}
+.stcard .modal .modal-dialog .modal-content .modal-body {
+    padding: 1rem 2rem;
+}
+.noGround {
+    background-color: #faf7d4;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.stcard .card-body .card-text {
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+/*****************/
+.loading-skeleton h5,
+.loading-skeleton p {
+    color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #e1debf;
+    border-color: #e1debf;
+}
+
+.loading-skeleton h5::placeholder,
+.loading-skeleton p::placeholder {
+    color: transparent;
+}
+
+@keyframes loading-skeleton {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.loading-skeleton {
+    pointer-events: none;
+    animation: loading-skeleton 1s infinite alternate;
+}
+/* .loading-skeleton img {
+    filter: grayscale(100) contrast(0%) brightness(1.8);
+} */
